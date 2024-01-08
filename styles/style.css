@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;800&display=swap');
+
+* {
+  margin: 0;
+}
 body {
   margin: 0;
   padding: 0;
@@ -14,6 +20,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
+  margin-top: 50px;
 }
 .bannar-detais {
   border-radius: 20px;
@@ -55,7 +62,7 @@ main {
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
-  margin: 0;
+  margin-bottom: 30px;
 }
 .offer-subtitle {
   color: #f00;
@@ -63,7 +70,7 @@ main {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 .promositonal-offer img {
   margin-top: 50px;
@@ -76,12 +83,13 @@ main {
   background-image: url(../resourse/Vectorrr.png);
   margin-top: 100px;
   margin-bottom: 100px;
+  border-radius: 20px;
 }
 .party-details {
-  border-radius: 10px;
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   width: 600px;
   padding: 100px 0px 210px 126px;
+  border-radius: 20px;
 }
 .party-tittle {
   color: #fff;
@@ -110,3 +118,149 @@ main {
 }
 
 /* end of the party style code */
+
+.portfolio {
+  margin-bottom: 100px;
+}
+.portfolio-details {
+  width: 800px;
+}
+.gift-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.gift-subtitle {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 22px 0;
+}
+.gift-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.portfolio-galary {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+.gift {
+  border-radius: 16px;
+  width: 424px;
+}
+.gift:hover {
+  box-shadow: 10px 10px 20px rgba(102, 99, 99, 0.445);
+}
+/* end portfolio section style here */
+
+.subcribe-newsleter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-bottom: 100px;
+}
+.subcribe-contain {
+  width: 900px;
+  padding: 80px 212px;
+  text-align: center;
+}
+.subcribe-contain img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+.subcribe-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.subcribe-mail {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  background: #fff;
+  display: flex;
+  margin-left: 100px;
+}
+input {
+  padding: 25px 0px;
+  border: none;
+}
+input[type="email"] {
+  width: 408px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 30px;
+  border-radius: 50px 0px 0px 50px;
+}
+input[type="button"] {
+  width: 240px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+/* End Subcribe Coding Here  */
+
+footer {
+  background-color: #070211;
+  padding: 140px;
+  color: white;
+}
+.footer-contain {
+  width: 1320px;
+  margin: 0 auto;
+}
+.web-info {
+  display: flex;
+  justify-content: space-between;
+}
+.web-info .contact{
+    margin-right: 200px;
+}
+hr {
+  color: #ffffff26;
+  margin: 50px 0px;
+}
+.web-info p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.web-sosial {
+    text-align: center;
+    margin: 100px 0;
+}
+.web-sosial img{
+    padding: 10px;
+}
