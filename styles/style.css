@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1600px;
+}
+main {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/* start banner section code here */
+.banner {
+  background-image: url(../resourse/Banner\ Image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.bannar-detais {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.404);
+  height: 600px;
+}
+.banner p {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 177px;
+  margin-bottom: 0;
+}
+.banner h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  text-align: center;
+  margin: 0;
+  padding: 0 344px;
+}
+
+/* end banner section code here */
+
+.promositonal-offer {
+  margin-top: 100px;
+}
+.offer-details {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+.present-offer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin: 0;
+}
+.offer-subtitle {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.promositonal-offer img {
+  margin-top: 50px;
+  width: 800px;
+}
+
+/* end offer section style here */
+
+.party {
+  background-image: url(../resourse/Vectorrr.png);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.party-details {
+  border-radius: 10px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  width: 600px;
+  padding: 100px 0px 210px 126px;
+}
+.party-tittle {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  margin: 0;
+}
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  width: 700px;
+  padding: 20px 0px;
+}
+.party-join {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+/* end of the party style code */
