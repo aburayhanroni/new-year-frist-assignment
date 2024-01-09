@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&family=Merriweather:wght@300;400;700;900&family=Open+Sans:wght@300;400;800&display=swap");
 
 * {
   margin: 0;
@@ -118,6 +118,81 @@ main {
 }
 
 /* end of the party style code */
+
+.sedule {
+  margin-bottom: 100px;
+  padding: 100px 385px;
+  border-radius: 20px;
+  background: linear-gradient(#d33636c7, #ff000000);
+}
+.sedule-grup {
+  text-align: center;
+}
+.date-line {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.date-type{
+    color: #F00;
+}
+.join-btn{
+    margin-top: 48px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+}
+/* sedule section coding off here */
+
+.coming-soon{
+  margin-bottom: 100px;
+  display: flex;
+}
+.new-off{
+  margin-top: 100px;
+  margin-right: 70px;
+  width: 700px;
+}
+.offer-banner{
+  width: 450px;
+  height: 366px;
+  border-radius: 100%;
+  border: 15px solid #F00;
+  padding: 20px;
+}
+.off-wish{
+  margin-top: 130px;
+  margin-left: 40px;
+}
+.wish-year{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+.year-summery{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
 
 .portfolio {
   margin-bottom: 100px;
@@ -243,8 +318,8 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.web-info .contact{
-    margin-right: 200px;
+.web-info .contact {
+  margin-right: 200px;
 }
 hr {
   color: #ffffff26;
@@ -258,9 +333,9 @@ hr {
   margin-bottom: 10px;
 }
 .web-sosial {
-    text-align: center;
-    margin: 100px 0;
+  text-align: center;
+  margin: 100px 0;
 }
-.web-sosial img{
-    padding: 10px;
+.web-sosial img {
+  padding: 10px;
 }
